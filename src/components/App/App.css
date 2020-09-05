@@ -135,7 +135,7 @@ label {
   cursor: default;
 }
 
-/*.calculate-repeat:disabled:hover {
+.calculate-repeat:disabled:hover {
   box-shadow: none;
   transform: translate(0, 0);
-}*/
+}
