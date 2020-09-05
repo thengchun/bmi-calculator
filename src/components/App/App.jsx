@@ -42,7 +42,7 @@ const App = () => {
     setState(getData('lastState'));
   };
 
-  const handleRepeat = () => {
+  const handleReset = () => {
     setState([]);
   };
 
@@ -84,7 +84,7 @@ const App = () => {
               <button className='calculate-btn' onClick={handleUndo}>
                 Undo
               </button>
-              <button className='calculate-repeat' onClick={handleRepeat}>
+              <button className='calculate-reset' onClick={handleReset}>
                 Reset
               </button>
             </div>
